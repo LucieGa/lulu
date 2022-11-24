@@ -1,0 +1,142 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <header id="header"><link
+      href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    /><img src="https://st2.depositphotos.com/1029305/12167/i/600/depositphotos_121672140-stock-photo-black-cartoon-fish-icon.jpg" id="header-img" alt="fish"/>
+  <link rel="stylesheet" href="styles.css">
+  <title>Singing fish</title>
+  <h1>The Singing Fish</h1>
+  <nav id="nav-bar">
+  <ul>
+    <li><a class="nav-link" href="#features">Features</a>
+    </li>
+    <li><a class="nav-link" href="#howdoesitwork">How does it work</a></li>
+    <li><a class="nav-link" href="#pricing">Pricing</a></li>
+    </nav>
+  </header>
+<body>
+<h2> Handcrafted, home-made masterpiece!</h2>
+ <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/bgsQR1qECso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<form id="form" action="https://www.freecodecamp.com/email-submit"><label for="email">Enter your email to receive all information about The Singing Fish <br><br><input id="email" name="email" type="email" placeholder="jean-guy@gmail.com" /><br><br>
+ <input id="submit" type="submit" value="Submit" />
+</label></form>
+
+<section id="features">
+  <div class="materials">
+<h3>Premium materials</h3>
+<p>Our Singing Fish use the most demanding materials, sourced locally. <br>This will increase the longevity of your purchase.</p>
+</div>
+<div class="shipping">
+<h3>Fast Shipping</h3>
+<p>We make sure you recieve your Singing Fish as soon as we have finished making it. <br>We also provide free returns if you are not satisfied.</p>
+</div>
+<div class="quality">
+<h3>Quality Assurance</h3>
+<p>For every purchase you make, we will ensure there are no damages or faults. <br>We will check and test the pitch of your Fish.</p>
+</div>
+</section>
+
+<section id="howdoesitwork">
+ 
+  </section>
+  
+  <section id="pricing">
+    <p>BLA</p>
+  </section>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#header-img {
+  width: 100px;
+  height: 100px;
+  max-width: 300px;
+}
+
+@media (max-width: 600px) {
+header, nav > ul {
+    flex-wrap: wrap;
+}
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  background-color: white;
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+}
+
+h2, label, input {
+font-family:'Raleway', sans-serif;
+text-align: center;
+}
+
+h3 {
+  font-family:'Raleway', sans-serif;
+  margin-left: 135px;
+}
+
+nav > ul {
+    width: 35vw;
+display: flex;flex-direction: row; justify-content: space-around;   padding-right: 100px;
+}
+
+a:link, a:visited, a:hover {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+li {
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    padding-top: 100px;
+    }
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+p {
+font-family: 'Raleway', sans-serif;
+font-size: 13px;
+display: block;
+margin-left: 135px;
+}
+
+iframe {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
+** end of undefined **
+
